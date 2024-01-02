@@ -1,0 +1,137 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+#home{
+    background-color: rgb(54, 45, 45);
+    border-radius: 4px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+nav{
+    margin: 0%;
+    list-style-type: none;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    font-size: 100%;
+    text-shadow: 1px 1px brown;
+}
+
+nav li a:hover{
+    color: rgb(42, 8, 231);
+    
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid rgb(83, 81, 81);
+    border-radius: 3px;
+    margin: 3px;
+    margin-right: 20px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+li img{
+    position:relative;
+    /* display: flex;
+    flex-direction: row-reverse; */
+    display: grid;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+    border-radius: 60%;
+    border: 0px;
+}
+
+.insta{
+    position: absolute;
+    right: 10px;
+}
+.fb{
+    position: absolute;
+    right: 50px;
+}
+.twitter{
+    position: absolute;
+    right: 90px;
+}
+
+.intro{
+    
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin: 20% auto auto 10%;
+    top: 50%;
+    font-size: 200%;
+}
+.intro h2,h3{font-family: damion;}
+.intro h1{
+    font-family: yellowtail;
+    transform: rotate(-20deg);
+    text-transform: uppercase;
+
+    /* -webkit-transform: rotate(30deg);
+-moz-transform: rotate(30deg);
+-o-transform: rotate(30deg);
+writing-mode: lr-tb; */
+}
+
+a.btn{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 10%;
+    padding: 2px 5px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+a.btn:hover{
+    background-color: rgb(107, 47, 47);
+}
+footer{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: black;
+    text-shadow: 1px 1px brown;
+    margin-top: 5%;
+}
+.hello{ position: relative;
+    text-align: center;
+    animation-name: bmp;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes bmp{
+    0%{
+        left: 0%;
+    }
+    25%{
+        left:10%;
+    }
+    50%{
+        left: 0%;
+    }
+    75%{
+        left:-10%;
+    }
+    100%{
+        left: 0%;
+    }
+}
